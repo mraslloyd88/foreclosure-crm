@@ -2,10 +2,21 @@ body {
   font-family: Arial, sans-serif;
   background: #f8fafc;
   color: #111;
+  padding: 2rem;
 }
-input[type="file"], select, input[type="text"] {
+
+input[type="file"], select, input[type="text"], button {
   padding: 8px;
   margin-top: 6px;
+  margin-right: 8px;
   border-radius: 6px;
   border: 1px solid #ccc;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
