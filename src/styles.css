@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #111;
+}
+input[type="file"], select, input[type="text"] {
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
